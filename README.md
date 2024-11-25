@@ -1,6 +1,8 @@
 # Flask Backend Project
 
-This README provides instructions for setting up and interacting with the Flask backend project. It's primarily intended for frontend developers who need to work with this backend.
+This README provides instructions for setting up and interacting with the Flask backend project. It's primarily intended for frontend developers who need to work with this backend. 
+
+deployed_link: https://somali-academy.onrender.com/
 
 ## Table of Contents
 
