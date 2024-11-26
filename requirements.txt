@@ -5,7 +5,6 @@ WTForms==3.0.1
 Flask-Bcrypt==1.0.1
 Flask-Login==0.6.2
 Flask-Migrate==3.1.0
-Flask-Mail==0.9.19.1
 mysqlclient==2.1.1
 PyMySQL==1.0.2
 gunicorn==20.1.0
