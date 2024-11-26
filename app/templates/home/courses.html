@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses - LearnHub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navigation Bar -->
+  <header class="bg-blue-600 text-white">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <a href="home.html" class="text-2xl font-extrabold">LearnHub</a>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="home.html" class="hover:text-gray-300">Home</a></li>
+          <li><a href="courses.html" class="hover:text-gray-300 font-semibold underline">Courses</a></li>
+          <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+          <li><a href="services.html" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-500 text-white py-16 text-center">
+    <div class="container mx-auto">
+      <h1 class="text-5xl font-bold mb-4">Unlock Your Potential with Our Courses</h1>
+      <p class="text-lg mb-6">Explore a variety of courses designed to boost your skills and career.</p>
+      <a href="#course-list" class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-200 transition duration-300">
+        Browse All Courses
+      </a>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="course-list" class="py-16 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold text-gray-800 mb-12">Our Popular Courses</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+
+        <!-- Course Card -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition duration-300">
+          <img src="https://via.placeholder.com/400x200" alt="Web Development" class="w-full object-cover h-48">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2 text-gray-800">Web Development</h3>
+            <p class="text-gray-600 mb-4">Learn HTML, CSS, and JavaScript to build responsive, modern web applications.</p>
+            <a href="course-details.html" class="text-blue-600 font-semibold hover:underline">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Course Card -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition duration-300">
+          <img src="https://via.placeholder.com/400x200" alt="Graphic Design" class="w-full object-cover h-48">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2 text-gray-800">Graphic Design</h3>
+            <p class="text-gray-600 mb-4">Master the fundamentals of design using tools like Photoshop, Illustrator, and Figma.</p>
+            <a href="course-details.html" class="text-blue-600 font-semibold hover:underline">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Course Card -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition duration-300">
+          <img src="https://via.placeholder.com/400x200" alt="Data Science" class="w-full object-cover h-48">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2 text-gray-800">Data Science</h3>
+            <p class="text-gray-600 mb-4">Dive into data analysis, visualization, and machine learning with Python and R.</p>
+            <a href="course-details.html" class="text-blue-600 font-semibold hover:underline">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Course Card -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition duration-300">
+          <img src="https://via.placeholder.com/400x200" alt="Digital Marketing" class="w-full object-cover h-48">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2 text-gray-800">Digital Marketing</h3>
+            <p class="text-gray-600 mb-4">Master SEO, social media, and Google Analytics to grow your online presence.</p>
+            <a href="course-details.html" class="text-blue-600 font-semibold hover:underline">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Course Card -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition duration-300">
+          <img src="https://via.placeholder.com/400x200" alt="Business Management" class="w-full object-cover h-48">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2 text-gray-800">Business Management</h3>
+            <p class="text-gray-600 mb-4">Develop leadership skills, project management, and strategic thinking in business settings.</p>
+            <a href="course-details.html" class="text-blue-600 font-semibold hover:underline">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Course Card -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition duration-300">
+          <img src="https://via.placeholder.com/400x200" alt="Mobile Development" class="w-full object-cover h-48">
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2 text-gray-800">Mobile Development</h3>
+            <p class="text-gray-600 mb-4">Learn how to build and deploy Android and iOS applications with React Native.</p>
+            <a href="course-details.html" class="text-blue-600 font-semibold hover:underline">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <p class="text-sm">&copy; 2024 LearnHub. All rights reserved.</p>
+      <a href="privacy-policy.html" class="hover:text-gray-300 text-sm">Privacy Policy</a>
+    </div>
+  </footer>
+
+</body>
+</html>

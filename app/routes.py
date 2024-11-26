@@ -6,6 +6,7 @@ main = Blueprint('main', __name__)
 def home():
     return render_template('home/home.html')
 
+
 @main.route('/dashboard')
 def dashboard():
     return render_template('student/dashboard.html')

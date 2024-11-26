@@ -1,4 +1,4 @@
-#!/home/omar/coding/work/Somali-academy/env/bin/python
+#!/home/khalid/Somali-academy/env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

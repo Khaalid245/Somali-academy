@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 font-sans text-gray-800">
+
+    <div class="container mx-auto px-6 py-12">
+        <!-- Title -->
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">Contact Me</h1>
+        <p class="text-center text-lg mb-10">Feel free to reach out if you have any questions or opportunities for collaboration.</p>
+
+        <!-- Contact Section -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <!-- Email Section -->
+            <div class="flex items-center space-x-4 bg-white p-6 rounded-lg shadow-lg">
+                <i class="fas fa-envelope text-4xl text-blue-600"></i>
+                <div>
+                    <h3 class="text-xl font-semibold">Email</h3>
+                    <p class="text-blue-600">
+                        <a href="mailto:youremail@example.com" class="hover:underline">youremail@example.com</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Phone Section -->
+            <div class="flex items-center space-x-4 bg-white p-6 rounded-lg shadow-lg">
+                <i class="fas fa-phone-alt text-4xl text-blue-600"></i>
+                <div>
+                    <h3 class="text-xl font-semibold">Phone</h3>
+                    <p class="text-blue-600">+123 456 7890</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
+            <!-- LinkedIn Section -->
+            <div class="flex items-center space-x-4 bg-white p-6 rounded-lg shadow-lg">
+                <i class="fab fa-linkedin text-4xl text-blue-600"></i>
+                <div>
+                    <h3 class="text-xl font-semibold">LinkedIn</h3>
+                    <p class="text-blue-600">
+                        <a href="https://linkedin.com/in/yourprofile" class="hover:underline" target="_blank">Your LinkedIn Profile</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- GitHub Section -->
+            <div class="flex items-center space-x-4 bg-white p-6 rounded-lg shadow-lg">
+                <i class="fab fa-github text-4xl text-blue-600"></i>
+                <div>
+                    <h3 class="text-xl font-semibold">GitHub</h3>
+                    <p class="text-blue-600">
+                        <a href="https://github.com/yourusername" class="hover:underline" target="_blank">Your GitHub Profile</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Twitter Section -->
+            <div class="flex items-center space-x-4 bg-white p-6 rounded-lg shadow-lg">
+                <i class="fab fa-twitter text-4xl text-blue-600"></i>
+                <div>
+                    <h3 class="text-xl font-semibold">Twitter</h3>
+                    <p class="text-blue-600">
+                        <a href="https://twitter.com/yourhandle" class="hover:underline" target="_blank">@YourTwitterHandle</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Message Form -->
+        <div class="bg-white p-8 rounded-lg shadow-lg mt-12">
+            <h2 class="text-2xl font-semibold text-blue-600 mb-6">Send a Message</h2>
+            <form action="#" method="POST">
+                <div class="grid grid-cols-1 gap-6">
+                    <div>
+                        <label for="name" class="block text-sm font-semibold">Full Name</label>
+                        <input type="text" id="name" name="name" class="w-full p-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-sm font-semibold">Email Address</label>
+                        <input type="email" id="email" name="email" class="w-full p-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+
+                    <div>
+                        <label for="subject" class="block text-sm font-semibold">Subject</label>
+                        <input type="text" id="subject" name="subject" class="w-full p-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+
+                    <div>
+                        <label for="message" class="block text-sm font-semibold">Message</label>
+                        <textarea id="message" name="message" class="w-full p-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" rows="6" required></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 focus:outline-none">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
