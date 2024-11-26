@@ -1,10 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Panel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <h1>Admin Panel</h1>
-    <a href="/">Back to Home</a>
+<body class="bg-gray-100 text-gray-800">
+    <div class="flex min-h-screen">
+        <!-- Sidebar -->
+        <aside class="bg-blue-600 text-white w-64 p-6 space-y-6">
+            <h1 class="text-2xl font-bold">Admin Panel</h1>
+            <nav class="space-y-4">
+                <a href="#" class="block py-2 px-3 rounded-md hover:bg-blue-700 transition">Dashboard</a>
+                <a href="#" class="block py-2 px-3 rounded-md hover:bg-blue-700 transition">Manage Users</a>
+                <a href="#" class="block py-2 px-3 rounded-md hover:bg-blue-700 transition">Reports</a>
+                <a href="#" class="block py-2 px-3 rounded-md hover:bg-blue-700 transition">Settings</a>
+                <a href="#" class="block py-2 px-3 rounded-md hover:bg-blue-700 transition">Notifications</a>
+                <a href="#" class="block py-2 px-3 rounded-md hover:bg-blue-700 transition">Help & Support</a>
+            </nav>
+            <a href="./home.html" class="block mt-6 text-sm bg-white text-blue-600 text-center py-2 rounded-md hover:bg-gray-100 transition">
+                Back to Home
+            </a>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-grow p-6">
+            <h2 class="text-2xl font-semibold mb-4">Welcome to the Admin Panel</h2>
+            <p class="text-gray-600 mb-6">Select an option from the sidebar to get started.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- Example Cards -->
+                <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold mb-2">Manage Users</h3>
+                    <p class="text-sm text-gray-600">View, add, edit, or delete users.</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold mb-2">Reports</h3>
+                    <p class="text-sm text-gray-600">View system reports and logs.</p>
+                </div>
+
+                <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+                    <h3 class="text-lg font-semibold mb-2">Settings</h3>
+                    <p class="text-sm text-gray-600">Update application settings and preferences.</p>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
